@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <h1>Welcome to Daraz!Please login.</h1>
+    <div class="container">
+    <div class="left">
+        <form>
+        <div >
+        <label for="email-or-phoneNumber" class="info">Phone Number or Email*</label>
+        <br>
+        <input type="text" placeholder="Enter Phone.no or Email">
+        <br>
+        Password: <br>
+        <input type="password" id="myInput" placeholder="Enter Your Password."><br>
+        <input type="checkbox" onclick="myFunction()" Show Password
+        <p> Don't have account. <a href="register.html">Sign up </a></p>
+    </div>
+
+        
+
+    </div>
+    </form>
+<div class="right">
+<button type="submit" class="login-button" >Login </button>
+<p>Or, login with</p>
+<button type="submit" class="fb" ><img src="../image/fb.png" alt="fb" height="20px"> Facebook</button>
+<button type="submit" class="google" ><img src="../image/g.png" alt="logo" height="20px">Google+</button>
+</div>
+</div>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myInput");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+    </script>
+</body>
+</html>

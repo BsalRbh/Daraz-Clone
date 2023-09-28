@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+    <style>
+      .flexbox {
+        height: 290px;
+        width: 188px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+      }
+      .thumbNail {
+        height: 188px;
+        width: 188px;
+      }
+      .pName {
+        height: 36px;
+        width: 172px;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 500;
+        text-align: center;
+      }
+      .pPrice {
+        height: 22px;
+        width: 172px;
+
+        margin-left: auto;
+        margin-right: auto;
+        color: orange;
+      }
+      .price-section {
+        height: 12px;
+        width: 172px;
+
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .dPrice {
+        text-decoration: line-through;
+        color: grey;
+        font-size: 18px;
+        line-height: 22px;
+      }
+      .price-section {
+        display: flex;
+        font-size: 12px;
+        line-height: 12px;
+      }
+      .product-section {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="product-section">
+      <div class="flexbox">
+        <div class="thumbNail">
+          <img src="image/bagmati plastics tools.jpg" alt="image" />
+        </div>
+        <div class="pName">Bagmati Plastic Tool</div>
+        <div class="pPrice">Rs.300</div>
+
+        <div class="price-section">
+          <div class="dPrice">Rs.500</div>
+          <div class="discount">-10%</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

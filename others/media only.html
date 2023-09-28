@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practise</title>
+    <style>
+      @media only screen and (min-width: 300px) and (max-width: 767px) {
+        p {
+          color: red;
+          font-style: italic;
+          font-size: xx-large;
+        }
+        body {
+          background-color: rgb(168, 158, 158);
+        }
+
+        /* Styles in this block are only applied if the screen size is atleast 300px wide, but no more
+        than 767px */
+      }
+      @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        P {
+          color: blue;
+          font-size: x-large;
+        }
+        body {
+          background-color: aqua;
+        }
+
+        /* Styles in this block are only applied if the screen size is atleast 768px wide, but no more
+        than 1023px */
+      }
+      @media only screen and (min-width: 1024px) {
+        p {
+          color: palevioletred;
+          font-size: larger;
+        }
+        body {
+          background-color: green;
+        }
+        /* Styles in this block are only applied if the screen size is over 1024px wide. */
+      }
+    </style>
+  </head>
+  <body>
+    <p>Ram</p>
+  </body>
+</html>
